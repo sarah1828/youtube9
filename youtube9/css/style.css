@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 15px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left-section img {
+    width: 50%;
+    padding-left: 15px;
+}
+.center-section {
+    display:flex;
+    align-items: center;
+}
+
+.center-section form {
+    display: flex;
+    height: 40px;
+    width: 360px;
+}
+
+.center-section form input {
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    padding: 13px;
+    font-size: 16px;
+    border: 1px solid rgb(224, 170, 100);
+    border-right: none;
+}
+
+.center-section form button {
+    width: 65px;
+    border: 1px solid rgb(244, 177, 100);
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    
+}
+ .center-section .mic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    cursor: pointer;
+ }
+ .right-section a {
+    padding-left: 15px;
+    color: black;
+ }
+ .content-area {
+    height: calc(100vh - 65px);
+    display: flex;
+    background-color: bisque;
+
+ }
+ aside {
+    width: 430px;
+    height: 100%;
+    background-color: white;
+    overflow:auto;
+
+
+ }
+ nav {
+    width: 100%;
+    flex-direction: column;
+    margin: 16px o;
+    padding-right: 15px;
+
+ }
+ 
+ .nav-link {
+    display: flex;
+align-items: center;
+padding: 10px 15px;
+text-decoration: none;
+color: black;
+ }
+.nav-link:hover{
+    background-color: bisque;
+}
+ .active {
+    background-color:bisque;
+
+ }
+ .nav-link span {
+    margin-left: 17px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ hr{
+    margin: 10px 0px;
+    height: 3px;
+    background-color: bisque;
+    border: none;
+
+ }
+ .subscriptions {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 15px;
+
+ }
+ .img-ch {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid bisque;
+ }
+ .card{
+margin-top: 30px;
+align-items: center;
+margin-left:  20px ; 
+margin-right: 10px ;
+ }
+.card h5 {
+text-align:left;
+color: rgb(44, 44, 94);
+text-decoration: double;
+font-size: 14px;
+font-weight: 600;
+}
+.card p{
+    text-align:center;
+    color: rgb(5, 5, 15);
+    text-decoration: double;
+    font-size: 14px;
+    font-weight: 600;
+
+}
